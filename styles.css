@@ -1,0 +1,136 @@
+body { 
+    background-image: url('bkg.png');
+    background-size:100%;
+    font-family: 'Microsoft Jhenghei UI';
+}
+
+.stu1 {
+    background: linear-gradient(rgb(140,210,200), rgb(110, 90, 190));
+    background-clip: text;
+    color: transparent;    
+    font-size: 64px;
+    position: absolute;
+    margin: auto;
+    top: 50%;
+    left: 30%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.exchange {
+    background: linear-gradient(rgb(140,190,200), rgb(150,160,240));
+    background-clip: text;
+    color: transparent;  
+    font-size: 28px;
+    position: absolute;
+    margin:auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.btn:hover {
+    background: linear-gradient(rgb(5,50,170), rgb(105,40,235));
+}
+
+.working {
+    background: linear-gradient(rgb(140,190,200), rgb(150,160,240));
+    background-clip: text;
+    color: transparent;  
+    font-size: 28px;
+    position: absolute;
+    margin:auto;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+}
+
+.stu2 {
+    background: linear-gradient(rgb(140,210,200), rgb(110, 90, 190));
+    background-clip: text;
+    color: transparent;  
+    font-size: 64px;
+    position: absolute;
+    margin:auto;
+    top: 50%;
+    left: 70%;
+    transform: translate(-50%,-50%);
+    opacity: 1;
+}
+
+.btn {
+    background: linear-gradient(rgb(25,70,190), rgb(125,60,255));
+    color: transparent; 
+    font-size: 22px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    margin:auto;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: grab;
+}
+
+.restart {
+    opacity: 0;
+    background: linear-gradient(rgb(25,70,190), rgb(125,60,255));
+    color: transparent; 
+    font-size: 22px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    margin:auto;
+    top: 92%;
+    left: 93%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: grab;
+}
+
+.history {
+    opacity: 0;
+    background: linear-gradient(rgb(25,70,190), rgb(125,60,255));
+    color: transparent; 
+    font-size: 22px;
+    color: white;
+    width: 120px;
+    height: 50px;
+    position: absolute;
+    margin:auto;
+    top: 92%;
+    left: 88%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px;
+    border-width: 0px;
+    cursor: grab;
+}
+
+.construction {
+    color:white;
+    opacity: 0.3;
+    position: absolute;
+    left: 92%;
+    top: 96%;
+}
+
+.moral {
+    background: linear-gradient(rgb(140,190,200), rgb(150,160,240));
+    background-clip: text;
+    text-align: center;
+    color: transparent;  
+    font-size: 28px;
+    position: absolute;
+    margin:auto;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    opacity: 0.7;
+}
