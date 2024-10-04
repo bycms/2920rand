@@ -150,3 +150,24 @@ restart.addEventListener("click",function(){
 history.addEventListener("click",function(){
   history.go(-1);
 })
+
+
+//above for main page
+//below for sign-in page
+
+const signInArea = document.getElementById('container');
+const contentArea = document.getElementById('main');
+const logNameInput = document.getElementById('logName');
+const logPwdInput = document.getElementById('logPwd');
+const logBtn = document.querySelector('.logBtn');
+
+signInArea.style.display = 'block';
+contentArea.style.display = 'none';
+
+logBtn.addEventListener('click', function(){
+  if((logNameInput.value == 'BoyuanChen' && logPwdInput.value == 'boyuan0417') 
+      || (logNameInput.value == 'Public' && logPwdInput.value == '142857')){
+    signInArea.style.display = 'none';
+    contentArea.style.display = 'block';
+  }
+})
